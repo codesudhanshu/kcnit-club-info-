@@ -1,0 +1,20 @@
+main
+{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.quiz-classes
+{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 40rem;
+    height: 4rem;
+    margin-top: 3rem;
+    background-color: rgb(7, 7, 254);
+    border-radius: 0.5rem;
+}

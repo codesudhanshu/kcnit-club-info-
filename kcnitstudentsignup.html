@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCNIT SignUp Page</title>
+    <link rel="stylesheet" href="/cssfile/login.css">
+</head>
+<body>
+    
+    <main id="main-log">
+        <div id="wrapper">
+            <div id="wrap">
+                <img src="/assest/kcnitlogo.jpg" alt="kcnitlogo">
+                <h1>Login in to KCNIT Student Cell</h1>
+                <p style="margin-top: 4rem;">Enter your Roll No Email and password.</p>
+            </div>
+            <div id="form">
+                <form action="student.html" method="post">
+                    <input class="frames" type="text" placeholder="Name" name="name" required><br>
+                    <input class="frames" type="email" placeholder="Email" name="email" required><br>
+                    <select name="CourseName" id="course" class="frames">
+                        <option value="null" disabled>select</option>
+                        <option value="MBA">MBA</option>
+                        <option value="B.Tech.">B.Tech.</option>
+                        <option value="B.E.D">B.E.D</option>
+                        <option value="PolyTechnic">PolyTechnic</option>
+                        <option value="ITI">ITI</option>
+                    </select><br>
+                    <select name="branchName" id="branch" class="frames">
+                        <option value="null" disabled>select</option>
+                        <option  value="CSE" id="cse" >CSE</option>
+                        <option value="CE"  id="ce">CE</option>
+                        <option value="EE"  id="ee">EE</option>
+                        <option value="ME"  id="me">ME</option>
+                        <option id="fitter" value="FITTER" >FITTER</option>
+                        <option id="electrician" value="ELECTRICIAN" >ELECTRICIAN</option> 
+                    </select><br>
+                    <input class="frames" type="text" placeholder="Roll No." name="rollNo" required><br>
+                    <input class="frames" type="text" placeholder="Phone Number" name="number" id="number" required><br>
+                    <input class="frames" type="password" name="pass" placeholder="Password" id="pass" required><br>
+                    <input class="frames" type="password" name="cpass" placeholder="Retype Your Password" id="cpass" required><br>
+                    <button type="submit" class="frames" id="submit">Signup</button>
+                </form>
+            </div>
+            <div class="login">
+                <p>Go to Home?</p><a href="index.html">Home</a>
+            </div>
+        </div>
+    </main>
+   
+
+   
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+#param
+{
+    margin-left: 2.5rem;
+    width: 100rem;
+    height: 71rem;
+    border: 2px solid rgb(9, 9, 9);
+    margin-bottom: 10rem;
+}
+
+
+
+#title{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+#cert-head
+{
+    margin: 5rem 5rem 3rem 5rem;
+    text-align: center;
+}
+#certificate-number
+{
+    margin-left: 5.5rem;
+}
+
+#cert-main{
+margin: 5rem 8rem 1rem 5rem;
+display: flex;
+justify-content: space-between;
+}
+#cert-main-logo
+{
+    width: 20rem;
+    height: 10rem;
+}
+
+#cert-foot
+{
+margin: 5rem 5rem 3rem 5rem;
+display: flex;
+justify-content: space-between;
+}
+
+.isn{
+ margin-top: 10rem;
+}
+
+#ins-na
+{
+font-size: 2rem;
+}
+#club
+{
+    margin-top: 3rem;
+    font-size: 5rem;
+}
+.na
+{
+    font-size: 5rem;
+}
+
+#name
+{
+    font-size: 2.5rem;
+}
+#date
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#len{
+    font-size: 1.5rem;
+}
+
+.certificate-id
+{
+    font-size: 1rem;
+}
+
+#director
+{
+    margin-left: 5rem;
+}

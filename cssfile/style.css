@@ -1,0 +1,384 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    font-size: 62.5%;
+    position:relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+p{
+    font-size: 2rem;
+}
+a{
+    color:red;
+    transition: 0.5s;
+}
+a:hover
+{
+    color: blue;
+}
+/* writing css code for header tahs */
+header{
+    padding: 0 0 5rem 0;
+}
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem 1rem 5rem ;
+
+}
+
+#header-name
+{
+color:red;
+font-weight:bolder;
+}
+
+#navul-header
+{
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+.navlink-header:link,
+.navlink-header:visited{
+    color: #111111;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navlink-header:hover,
+.navlink-header:active
+{
+    color: red;
+}
+#header-data
+{
+    padding: 5rem 15rem 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+#container{
+    font-size: 2rem;
+    font-weight: 300;
+}
+#animation
+{
+    display: flex;
+}
+
+#anim
+{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid red;
+   animation: ani 1.5s ease-in infinite reverse ;
+   
+}
+
+#anime
+{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid blue;
+    animation: ani 0.5s ease-in  infinite reverse ;
+}
+#animes
+{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid green;
+    animation: ani 1.5s ease-in  infinite reverse ;
+}
+
+
+    
+    @keyframes ani {
+        from{
+            width: 10rem;
+            height: 10rem;
+        }
+        to
+        {
+            width: 10rem;
+            height: 10rem;
+            transform: rotate(180deg);
+        }
+    }
+
+
+
+
+
+.join-club
+{
+ text-align: center;
+}
+
+/* write here css code for main class */
+#wrapper
+{
+    margin-top: 3rem;
+   justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+
+.wrapper-element
+{
+    text-align: center;
+    width: 50rem;
+    height: 10rem;
+    border: 2px solid rgb(48, 58, 58);
+    padding-top: 3rem;
+}
+
+.wrapper-anc:link,
+.wrapper-anc:visited
+{
+    text-decoration: none;
+    color: #111111;
+    transition: 1s;
+}
+
+.wrapper-anc:hover,
+.wrapper-anc:active
+{
+color: white;
+background-color: #000080;
+    
+}
+
+
+.section-main
+{
+padding: 10rem;
+text-align: center;
+}
+
+.content-para
+{
+   
+    padding: 3rem 10rem 3rem 10rem;
+    font-size: 2rem;
+    font-weight:10rem;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+
+/* write here css code foer footer */
+#footprint
+{
+    width: 100%;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    padding: 1rem 0 1rem 0;
+    
+    
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #0c0c0c;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgb(6, 6, 6);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(9, 9, 9);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+    #animation
+    {
+        display: none;
+    }
+    #wrapper
+{
+   display: inline;
+   margin: 4rem;
+}
+.wrapper-element
+{
+   margin-left: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    width: 30rem;
+    height: 10rem;
+    border: 2px solid rgb(48, 58, 58);
+    padding-top: 3rem;
+}
+
+.section-main
+{
+padding:1rem;
+
+}
+
+
+.content-para
+{
+    padding: 3rem 3rem ;
+    font-size: 2rem;
+    font-weight:10rem;
+    line-height: 1.7;
+}
+}
+
+
+
+.about .container {
+  position: relative;
+  z-index: 10;
+}
+.about .content {
+  padding: 30px 30px 30px 0;
+}
+.about .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.about .content p {
+  margin-bottom: 30px;
+}
+.about .content .about-btn {
+  padding: 8px 30px 9px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #e03a3c;
+}
+.about .content .about-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.about .content .about-btn:hover {
+  background: #e35052;
+  background: #e03a3c;
+}
+.about .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+.about .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #e03a3c;
+  margin-bottom: 10px;
+}
+.about .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.about .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
+  }
+}

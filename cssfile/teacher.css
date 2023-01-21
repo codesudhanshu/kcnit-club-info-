@@ -1,0 +1,97 @@
+#if
+{
+    display: flex;
+}
+
+#teacher
+{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#addStudent
+{
+    padding: 4rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 30%;
+    border: 2px solid red;
+    width: 60rem;
+    height: 10rem;
+    transition: 1s;
+}
+
+
+#addStudent:hover
+{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+#container 
+{
+    margin: 5rem 10rem 0 5rem;
+}
+table
+{
+    width: 40rem;
+    border-collapse: collapse;
+}
+
+tr,td{
+padding: 1rem;
+}
+
+#circle
+{
+  width: 70rem;
+  height: 36rem;
+  margin: 5rem 5rem 3rem 0;
+}
+
+@media (max-width:600px){
+    #if
+{
+    display:inline;
+}
+    #container 
+    {
+        margin: 5rem 1rem 0 1rem;
+    }
+    table
+    {
+        width: 35rem;
+        border-collapse: collapse;
+    }
+    
+    tr,td{
+    padding: 1rem;
+    }
+    
+    #circle
+    {
+      width: 35rem;
+      height: 36rem;
+      margin: 5rem 1rem 3rem 1rem;
+    }
+    
+    #addStudent
+    {
+    padding: 3rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    border: 2px solid red;
+    width: 20rem;
+    height: 10rem;
+    }
+   
+}
+

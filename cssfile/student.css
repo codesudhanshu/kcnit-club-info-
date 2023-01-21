@@ -1,0 +1,68 @@
+
+.kcnit-heading
+{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.wrapper-anc-erp:link,
+.wrapper-anc-erp:visited
+{  
+color: rgb(12, 12, 12);
+text-decoration: none;
+text-transform: capitalize;
+transition: 1s;
+}
+
+.wrapper-anc-erp:hover,
+.wrapper-anc-erp:active
+{
+    color: white;
+    background-color: #d15050;
+}
+
+.wrapper-element-erp
+{
+    text-align: center;
+    border: 2px solid transparent;
+    width: 40rem;
+    height: 15rem;
+    padding-top: 3rem;
+}
+
+#wrapper-erp
+{
+    margin: 1.5rem 0 5rem 0 ;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 9rem;
+}
+
+@media (max-width:600px)
+{
+    .wrapper-element-erp
+    {
+        text-align: center;
+        border: 2px solid transparent;
+        width: 35rem;
+        height: 15rem;
+        padding-top: 3rem;
+    }
+
+    #wrapper-erp
+    {
+       
+        display: inline;
+    }
+    
+}

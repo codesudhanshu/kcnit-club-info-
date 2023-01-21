@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCNIT Club Page</title>
+    <link rel="stylesheet" href="/cssfile/login.css">
+
+</head>
+
+<body>
+    <header id="header-log">
+
+    </header>
+    <main id="main-log">
+        <div id="wrapper">
+            <div id="wrap">
+                <img src="/assest/kcnitlogo.jpg" alt="kcnitlogo">
+                <h1>Register to join Clubs At KCNIT</h1>
+                <p style="margin-top: 4rem;">Enter your Name Email password and choose a Club</p>
+            </div>
+            <div id="form">
+                <form action="" method="post">
+                    <input class="frames" type="text" placeholder="Name" name="name" required><br>
+                    <input class="frames" type="email" placeholder="Email" name="email" required><br>
+                    <input class="frames" type="text" placeholder="Phone Number" name="number" id="number" required><br>
+                  <div id="gen">
+                    <label for="Gend">Gender:</label>
+                    <label for="men">
+                    <input type="radio" name="gender" id="male" onclick="mymen();">Male</label>
+                    <label for="women">
+                    <input type="radio" name="gender" id="female" onclick="my();">Female</label><br>
+                </div>
+                <input class="frames" type="text" placeholder="Your College Name" name="name" required><br>
+                <input class="frames" type="text" placeholder="Your District Name" name="name"  required><br>
+                <input class="frames" type="number" min="6" max="12" placeholder="Your Class" name="name" required><br>
+                    <select name="clubName" id="clubName" class="frames">
+                        <option value="null" disabled>select</option>
+                        <option value="egov">E-Governance</option>
+                        <option value="sportica">Sportica</option>
+                        <option value="Entreprenureship">Entreprenureship</option>
+                        <option value="prayash">Prayash</option>
+                        <option value="intellectual">Intellectual</option>
+                        <option value="placecom">Placecom</option> 
+                        <option value="techManthan">TechManthan</option>
+                        <option value="sangini" id="sangini" disabled>Sangini For only Girls</option>
+                        <option value="tarang" id="tarang"disabled>Tarang For only Girls</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="frames" id="submit">Confirm</button>
+                </form>
+            </div>
+            <div class="login">
+                <p>Go to Home?</p><a href="index.html">Home</a>
+            </div>
+        </div>
+    </main>
+    <footer id="footlog">
+    </footer>
+<script>
+   function my(){
+        document.getElementById("sangini").disabled=false;
+        document.getElementById("tarang").disabled=false;
+    }
+    function mymen()
+    {
+        document.getElementById("sangini").disabled=true;
+        document.getElementById("tarang").disabled=true; 
+    }
+
+    
+
+</script>
+
+
+</body>
+
+</html>
